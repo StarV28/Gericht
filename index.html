@@ -1,0 +1,632 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Gericht</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240328165608">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="150" data-scroll-show class="header">
+			<div class="header__contant">
+				<div class="header__wrap">
+					<div class="header__logo">
+						<a href="index.html">gericht</a>
+					</div>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li id="index" class="menu__item"><a href="index.html" class="menu__link">home</a></li>
+								<li id="about" class="menu__item">
+									<a href="about.html" class="menu__link">About us</a>
+								</li>
+								<li id="contact" class="menu__item">
+									<a href="contact.html" class="menu__link">contact Us</a>
+								</li>
+								<li id="services" class="menu__item">
+									<a href="services.html" class="menu__link">Services</a>
+								</li>
+								<li id="team" class="menu__item"><a href="team.html" class="menu__link">Team</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div data-da=".menu__body,767.98,2" class="header__registr registr">
+						<div class="registr__reg reg">
+							<ul class="reg__list">
+								<li class="reg__item"><a data-popup="#popup" class="reg__link" href="">Log in</a></li>
+								<li class="reg__item">/</li>
+								<li class="reg__item">
+									<a class="reg__link" href="registration.html">Registration</a>
+								</li>
+							</ul>
+						</div>
+						<div class="registr__book">
+							<a data-goto="#reserv" href="">Book Table</a>
+						</div>
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<div id="popup" aria-hidden="true" class="popup">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<button data-close type="button" class="popup__close">Close X</button>
+					<div class="popup__text">
+						<form class="popup__form" action="files/sendmail/sendmail.php" method="POST">
+							<input type="text" name="E-mail" data-error="Error" placeholder="E-mail" class="popup__input input" />
+							<input type="text" name="password" data-error="Error" placeholder="Enter your password" class="popup__input password input" />
+							<button type="submit" class="button btn"><span>Send</span></button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main class="page">
+			<section class="page__first first top">
+				<div class="first__contant">
+					<div class="first__box">
+						<div class="first__page-link">
+							<a href="bar.html">#Bar</a>
+							<a href="index.html">#Gericht</a>
+						</div>
+						<div class="first__title">
+							<h4>Chase the new Flavour</h4>
+							<span class="_icon-spoon"></span>
+							<h1>The key to Fine dining</h1>
+							<p>
+								Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi
+								facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus
+							</p>
+							<a href="#" class="first__btn btn"><span>Explore Menu</span></a>
+						</div>
+						<div class="first__food-img food-img">
+							<div class="food-img__slider swiper">
+								<div class="food-img__wrapper swiper-wrapper">
+									<div class="food-img__slide swiper-slide">
+										<div class="food-img__image">
+											<picture><source srcset="img/key-dining/joseph-gonzalez.webp" type="image/webp"><img src="img/key-dining/joseph-gonzalez.jpeg" alt="" /></picture>
+										</div>
+									</div>
+									<div class="food-img__slide swiper-slide">
+										<div class="food-img__image">
+											<picture><source srcset="img/key-dining/christian-coquet.webp" type="image/webp"><img src="img/key-dining/christian-coquet.jpeg" alt="" /></picture>
+										</div>
+									</div>
+									<div class="food-img__slide swiper-slide">
+										<div class="food-img__image">
+											<picture><source srcset="img/key-dining/khloe-arledge.webp" type="image/webp"><img src="img/key-dining/khloe-arledge.jpeg" alt="" /></picture>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="first__container"></div>
+			</section>
+			<section class="page__ab-history ab-history">
+				<div class="ab-history__container">
+					<div class="ab-history__wrap">
+						<div class="ab-history__image">
+							<img src="img/knive&G.svg" alt="" />
+						</div>
+						<div class="ab-history__text">
+							<div class="ab-history__about">
+								<div class="ab-history__title">
+									<h3>About Us</h3>
+									<span class="_icon-spoon"></span>
+								</div>
+								<p>
+									Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste esse rerum
+									laborum laboriosam ea numquam suscipit labore placeat dolorem recusandae,
+									voluptate architecto quasi, perferendis veniam?
+								</p>
+								<button class="ab-history__btn btn"><span>Know More</span></button>
+							</div>
+							<div class="ab-history__our-hist">
+								<div class="ab-history__title">
+									<h3>Our History</h3>
+									<span class="_icon-spoon"></span>
+								</div>
+								<p>
+									Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste esse rerum
+									laborum laboriosam ea numquam suscipit labore placeat dolorem recusandae,
+									voluptate architecto quasi, perferendis veniam?
+								</p>
+								<button class="ab-history__btn btn"><span>Know More</span></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="reserv" class="page__reservation reservation">
+				<div class="reservation__container _icon-logo-page">
+					<div class="reservation__wrap">
+						<div class="reservation__title title">
+							<h6>Reservations</h6>
+							<span class="_icon-spoon"></span>
+							<h2>Book a table</h2>
+						</div>
+						<div class="reservation__time-data-box">
+							<div class="reservation__selects">
+								<select name="form[]" data-class-modif="form">
+									<option value="1" selected>Select number person</option>
+									<option value="1">1 Person</option>
+									<option value="2">2 Person</option>
+									<option value="3">3 Person</option>
+									<option value="4">4 Person</option>
+									<option value="4">More 4 Person</option>
+								</select>
+								<select id="selectDate" name="form[]" data-class-modif="form">
+									<option value="1" selected>Select a Date</option>
+									<option value="2"></option>
+									<option value="3"></option>
+									<option value="4"></option>
+									<option value="5"></option>
+									<option value="6"></option>
+									<option value="7"></option>
+									<option value="8"></option>
+									<option value="9"></option>
+									<option value="10"></option>
+									<option value="11"></option>
+								</select>
+								<select name="form[]" data-class-modif="form">
+									<option value="1">Select reserve time</option>
+									<option value="1">8:00 AM</option>
+									<option value="2">9:00 AM</option>
+									<option value="3">10:00 AM</option>
+									<option value="4">11:00 AM</option>
+									<option value="4">12:00 AM</option>
+									<option value="4">13:00 PM</option>
+									<option value="4">14:00 PM</option>
+									<option value="4">15:00 PM</option>
+									<option value="4">16:00 PM</option>
+									<option value="4">17:00 PM</option>
+									<option value="4">18:00 PM</option>
+									<option value="4">19:00 PM</option>
+									<option value="4">20:00 PM</option>
+									<option value="4">21:00 PM</option>
+								</select>
+							</div>
+							<button type="submit" class="reservation__btn btn"><span>Book Now</span></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__links-menu links-menu">
+				<picture><source srcset="img/bar.webp" type="image/webp"><img src="img/bar.jpg" alt="" /></picture>
+				<div class="links-menu__container _icon-logo-page">
+					<ul class="links-menu__list">
+						<li class="links-menu__item"><a href="#" class="links-menu__link">bar menu</a></li>
+						<li class="links-menu__item"><a href="#" class="links-menu__link">food menu</a></li>
+						<li class="links-menu__item">
+							<a href="#" class="links-menu__link">desserts Menu</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="page__today-sp today-sp">
+				<div class="today-sp__container">
+					<div class="today-sp__title title">
+						<h6>menu that fits you palatte</h6>
+						<span class="_icon-spoon"></span>
+						<h2>today's special</h2>
+					</div>
+					<div class="today-sp__spec-menu spec-menu">
+						<div class="spec-menu__wine">
+							<h3>Wine & Beer</h3>
+							<div class="spec-menu__product">
+								<div class="product">
+									<div class="product__title">
+										<a href="#">Chapel Hill shiraz</a>
+										<div class="product__price"><span></span>$56</div>
+									</div>
+									<p>AU | Botle</p>
+								</div>
+								<div class="product">
+									<div class="product__title">
+										<a href="#">Catena Malbec</a>
+										<div class="product__price"><span></span>$59</div>
+									</div>
+									<p>AR | Bottle</p>
+								</div>
+								<div class="product">
+									<div class="product__title">
+										<a href="#">La Vieille Rose</a>
+										<div class="product__price"><span></span>$44</div>
+									</div>
+									<p>FR | 750 ml</p>
+								</div>
+								<div class="product">
+									<div class="product__title">
+										<a href="#">Rhino Palo Ale</a>
+										<div class="product__price"><span></span>$31</div>
+									</div>
+									<p>CA | 750 ml</p>
+								</div>
+								<div class="product">
+									<div class="product__title">
+										<a href="#">Irish Guinness</a>
+										<div class="product__price"><span></span>$26</div>
+									</div>
+									<p>IE | 750 ml</p>
+								</div>
+							</div>
+						</div>
+						<div class="spec-menu__image">
+							<picture><source srcset="img/td-special.webp" type="image/webp"><img src="img/td-special.jpg" alt="" /></picture>
+						</div>
+						<div class="spec-menu__cocktails">
+							<h3>Cocktails</h3>
+							<div class="spec-menu__product">
+								<div class="product">
+									<div class="product__title">
+										<a href="#">Aperol Spritz</a>
+										<div class="product__price"><span></span>$20</div>
+									</div>
+									<p>Aperol | Villa Marchesi prosecco | soda | 30ml</p>
+								</div>
+								<div class="product">
+									<div class="product__title">
+										<a href="#">Dark 'N' Stormy</a>
+										<div class="product__price"><span></span>$16</div>
+									</div>
+									<p>Dark rum | Ginger beer | Slice of lime.</p>
+								</div>
+								<div class="product">
+									<div class="product__title">
+										<a href="#">Daiquiri</a>
+										<div class="product__price"><span></span>$10</div>
+									</div>
+									<p>Rum | Citrus juice | Sugarml</p>
+								</div>
+								<div class="product">
+									<div class="product__title">
+										<a href="#">Old Fashioned</a>
+										<div class="product__price"><span></span>$31</div>
+									</div>
+									<p>Bourbon | Brown sugar | Angostura Bitters</p>
+								</div>
+								<div class="product">
+									<div class="product__title">
+										<a href="#">Negroni</a>
+										<div class="product__price"><span></span>$26</div>
+									</div>
+									<p>Gin | Sweet Vermouth | Campari | Orange garnish</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="today-sp__btn btn"><span>view nore</span></button>
+				</div>
+			</section>
+			<section class="page__believe believe">
+				<div class="believe__container">
+					<div class="believe__wrap">
+						<div class="believe__image">
+							<picture><source srcset="img/kevin-luo.webp" type="image/webp"><img src="img/kevin-luo.jpg" alt="" /></picture>
+						</div>
+						<div class="believe__description description">
+							<div class="description__title title">
+								<h6>Chef's Word</h6>
+								<span class="_icon-spoon"></span>
+								<h2>What we believe in</h2>
+							</div>
+							<div class="description__text">
+								<h6>
+									<span class="_icon-quotes"></span>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam.
+								</h6>
+								<p>
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis minima ducimus
+									vel! Deserunt perspiciatis odio magnam dicta expedita laboriosam quae nostrum
+									explicabo esse aperiam! Quibusdam alias, odit veniam excepturi quas ducimus/
+								</p>
+							</div>
+							<div class="description__name">
+								<a href="#">Kevin Luo</a>
+								<a href="#">Chef & Founder</a>
+							</div>
+							<div class="description__signature">
+								<img src="img/icons/Kevin Luo.svg" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__testimony testimony _icon-logo-page">
+				<div class="testimony__container">
+					<div class="testimony__wrap">
+						<div class="testimony__title title">
+							<h6>testimony</h6>
+							<span class="_icon-spoon"></span>
+							<h2>Happy customers</h2>
+						</div>
+						<div class="testimony__customers customers">
+							<div class="customers__customer customer">
+								<div class="customer__image _icon-quotes">
+									<picture><source srcset="img/happy-customers/jane-cooper.webp" type="image/webp"><img src="img/happy-customers/jane-cooper.jpg" alt="" /></picture>
+								</div>
+								<div class="customer__description">
+									<a href="#">
+										Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate labore non
+										nemo dicta, aliquid vel deserunt? Adipisci necessitatibus qui voluptate?
+									</a>
+									<a href="#">Jane Cooper</a>
+									<span>Chef</span>
+								</div>
+							</div>
+							<div class="customers__customer customer">
+								<div class="customer__image _icon-quotes">
+									<picture><source srcset="img/happy-customers/robert-fox.webp" type="image/webp"><img src="img/happy-customers/robert-fox.jpg" alt="" /></picture>
+								</div>
+								<div class="customer__description">
+									<a href="#">
+										Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate labore non
+										nemo dicta, aliquid vel deserunt? Adipisci necessitatibus qui voluptate?
+									</a>
+									<a href="#">Robert Fox</a>
+									<span>Chef</span>
+								</div>
+							</div>
+							<div class="customers__customer customer">
+								<div class="customer__image _icon-quotes">
+									<picture><source srcset="img/happy-customers/brooklyn-simmons.webp" type="image/webp"><img src="img/happy-customers/brooklyn-simmons.jpg" alt="" /></picture>
+								</div>
+								<div class="customer__description">
+									<a href="#">
+										Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate labore non
+										nemo dicta, aliquid vel deserunt? Adipisci necessitatibus qui voluptate?
+									</a>
+									<a href="#">Brooklyn Simmons</a>
+									<span>Caterer</span>
+								</div>
+							</div>
+							<div class="customers__customer customer">
+								<div class="customer__image _icon-quotes">
+									<picture><source srcset="img/happy-customers/wede-werren.webp" type="image/webp"><img src="img/happy-customers/wede-werren.jpg" alt="" /></picture>
+								</div>
+								<div class="customer__description">
+									<a href="#">
+										Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate labore non
+										nemo dicta, aliquid vel deserunt? Adipisci necessitatibus qui voluptate?
+									</a>
+									<a href="#">Wade Warren</a>
+									<span>Sommeller</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__rest-video rest-video">
+				<video autoplay muted loop data-src="img/pexels-paul-antonescu-6755352 (1080p).mp4"></video>
+				<div class="rest-video__container _icon-logo-page"></div>
+			</section>
+			<section class="page__laurels laurels">
+				<div class="laurels__container">
+					<div class="laurels__wrap">
+						<div class="laurels__our-laurels our-laurels">
+							<div class="our-laurels__title title">
+								<h6>awards & recognition</h6>
+								<span class="_icon-spoon"></span>
+								<h2>Our Laurels</h2>
+							</div>
+							<div class="our-laurels__laurel">
+								<div class="laurel">
+									<span class="laurel__namber _icon-gerb-number">2</span>
+									<div class="laurel__text">
+										<a href="#">big gourmond</a>
+										<p>Lorem ipsum dolor sit amet consectetur.</p>
+									</div>
+								</div>
+								<div class="laurel">
+									<span class="laurel__namber _icon-gerb-number">1</span>
+									<div class="laurel__text">
+										<a href="#">rising star</a>
+										<p>Lorem ipsum dolor sit amet consectetur.</p>
+									</div>
+								</div>
+								<div class="laurel">
+									<span class="laurel__namber _icon-gerb-number">5</span>
+									<div class="laurel__text">
+										<a href="#">AA hospitality</a>
+										<p>Lorem ipsum dolor sit amet consectetur.</p>
+									</div>
+								</div>
+								<div class="laurel">
+									<span class="laurel__namber _icon-gerb-number">3</span>
+									<div class="laurel__text">
+										<a href="#">outstanding chef</a>
+										<p>Lorem ipsum dolor sit amet consectetur.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="laurels__image">
+							<picture><source srcset="img/laurel-food.webp" type="image/webp"><img class="laurels__food" src="img/laurel-food.jpg" alt="" /></picture>
+							<img class="laurels__G" src="img/G.svg" alt="" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__updates updates">
+				<div class="updates__container _icon-logo-page">
+					<div class="updates__title title">
+						<h6>blog</h6>
+						<span class="_icon-spoon"></span>
+						<h2>cericht updates</h2>
+					</div>
+					<div class="updates__cards">
+						<div class="updates__card card">
+							<a href="#" class="card__image">
+								<picture><source srcset="img/updates/caring.webp" type="image/webp"><img src="img/updates/caring.jpg" alt="" /></picture>
+							</a>
+							<div class="card__description-card description-card">
+								<div class="description-card__date">
+									<p>16 Apr 2021</p>
+									<p>- Annalisa L</p>
+								</div>
+								<a href="#" class="description-card__title">tips for prepping and caring for your grill</a>
+								<div class="description-card__text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, alias quo.
+									Praesentium et nobis corporis ipsum nemo dolores ullam dolorem! Quam nemo eum
+									repellendus deserunt?
+								</div>
+								<a href="#" class="description-card__link">Read More</a>
+							</div>
+						</div>
+						<div class="updates__card card">
+							<a href="#" class="card__image">
+								<picture><source srcset="img/updates/cocktails.webp" type="image/webp"><img src="img/updates/cocktails.jpg" alt="" /></picture>
+							</a>
+							<div class="card__description-card description-card">
+								<div class="description-card__date">
+									<p>23 May 2021</p>
+									<p>-John Micheal</p>
+								</div>
+								<a href="#" class="description-card__title">summer cocktails and mocktails</a>
+								<div class="description-card__text">
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo illum, aut ipsum
+									quam, distinctio accusantium amet similique laudantium velit repellat iste iure
+									exercitationem magni suscipit.
+								</div>
+								<a href="#" class="description-card__link">Read More</a>
+							</div>
+						</div>
+						<div class="updates__card card">
+							<a href="#" class="card__image">
+								<picture><source srcset="img/updates/college.webp" type="image/webp"><img src="img/updates/college.jpg" alt="" /></picture>
+							</a>
+							<div class="card__description-card description-card">
+								<div class="description-card__date">
+									<p>06 Aug 2021</p>
+									<p>-Fred W</p>
+								</div>
+								<a href="#" class="description-card__title">easy cooking for college students</a>
+								<div class="description-card__text">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ab deserunt
+									repellat tempora numquam! Quam eos officiis voluptate vero dicta porro qui
+									laborum, similique mollitia labore quos tempore facilis laboriosam in dolorem
+									quaerat explicabo non.
+								</div>
+								<a href="#" class="description-card__link">Read More</a>
+							</div>
+						</div>
+					</div>
+					<button type="button" class="updates__btn btn"><span>view more</span></button>
+				</div>
+			</section>
+			<section class="page__instagram instagram">
+				<div class="instagram__container">
+					<div class="instagram__wrap">
+						<div class="instagram__title title">
+							<h6>instagram</h6>
+							<span class="_icon-spoon"></span>
+							<h2>photo gallery</h2>
+						</div>
+						<div class="instagram__text">
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus mollitia quia
+							expedita saepe fugiat sed?
+						</div>
+						<button type="button" class="instagram__btn btn"><span>view more</span></button>
+					</div>
+					<div class="instagram__slider swiper">
+						<div class="instagram__wrapper swiper-wrapper">
+							<div class="instagram__slide swiper-slide">
+								<a href="#" class="instagram__image">
+									<picture><source srcset="img/instagram/proriat.webp" type="image/webp"><img src="img/instagram/proriat.jpg" alt="" /></picture>
+								</a>
+							</div>
+							<div class="instagram__slide swiper-slide">
+								<a href="#" class="instagram__image">
+									<picture><source srcset="img/instagram/pexels.webp" type="image/webp"><img src="img/instagram/pexels.jpg" alt="" /></picture>
+								</a>
+							</div>
+							<div class="instagram__slide swiper-slide">
+								<a href="#" class="instagram__image">
+									<picture><source srcset="img/instagram/michele.webp" type="image/webp"><img src="img/instagram/michele.jpg" alt="" /></picture>
+								</a>
+							</div>
+							<div class="instagram__slide swiper-slide">
+								<a href="#" class="instagram__image">
+									<picture><source srcset="img/instagram/proriat.webp" type="image/webp"><img src="img/instagram/proriat.jpg" alt="" /></picture>
+								</a>
+							</div>
+							<div class="instagram__slide swiper-slide">
+								<a href="#" class="instagram__image">
+									<picture><source srcset="img/instagram/pexels.webp" type="image/webp"><img src="img/instagram/pexels.jpg" alt="" /></picture>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__interlayer">
+				<div class="interlayer__container _icon-logo-page"></div>
+			</div>
+			<div class="footer__container">
+				<div class="footer__newsletter newsletter">
+					<div class="newsletter__title">
+						<p>newsletter</p>
+						<span class="_icon-spoon"></span>
+						<h3>subscribe to our newsletter</h3>
+					</div>
+					<form class="newsletter__form" action="files/sendmail/sendmail.php" method="POST">
+						<input type="text" name="email" data-error="Error" placeholder="Email Address" class="newsletter__input input" />
+						<button type="submit" class="newsletter__subs btn"><span>subscribe</span></button>
+					</form>
+				</div>
+				<div data-goto=".top" class="footer__top"><span></span><span>top</span></div>
+				<div class="footer__contacts-foot contacts-foot">
+					<div data-da=".contacts-foot,767.98,3" class="contacts-foot__contact contact">
+						<h5>contact us</h5>
+						<a href="#" class="contact__address">9 W 53rd St, New York, NY 10019, USA</a>
+						<a href="tel:+12123441230" class="contact__tel">+1 212-344-1230</a>
+						<a href="tel:+12125551230" class="contact__tel">+1 212-555-1230</a>
+					</div>
+					<div class="contacts-foot__network-logo network-logo">
+						<div class="network-logo__text">
+							<h3>gericht</h3>
+							<p>"The best way to find yourself is to lose yourself in the service of others.”</p>
+							<span class="_icon-spoon"></span>
+						</div>
+						<div class="network-logo__link-social">
+							<a href="#" class="_icon-fb"></a>
+							<a href="#" class="_icon-twit"></a>
+							<a href="#" class="_icon-insta"></a>
+						</div>
+					</div>
+					<div class="contacts-foot__work-days work-days">
+						<h5>Working hours</h5>
+						<div class="work-days__day">
+							<span>Monday-Friday:</span>
+							<span>08:00 am - 10:00 pm</span>
+						</div>
+						<div class="work-days__day">
+							<span>Saturday-Sunday:</span>
+							<span>07:00 am - 11:00 pm</span>
+						</div>
+					</div>
+				</div>
+				<div class="footer__copyright">2021 Gerícht. All Rights reserved.</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20240328165608"></script>
+</body>
+
+</html>

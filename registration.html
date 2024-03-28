@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Registration</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240328165608">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="150" data-scroll-show class="header">
+			<div class="header__contant">
+				<div class="header__wrap">
+					<div class="header__logo">
+						<a href="index.html">gericht</a>
+					</div>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li id="index" class="menu__item"><a href="index.html" class="menu__link">home</a></li>
+								<li id="about" class="menu__item">
+									<a href="about.html" class="menu__link">About us</a>
+								</li>
+								<li id="contact" class="menu__item">
+									<a href="contact.html" class="menu__link">contact Us</a>
+								</li>
+								<li id="services" class="menu__item">
+									<a href="services.html" class="menu__link">Services</a>
+								</li>
+								<li id="team" class="menu__item"><a href="team.html" class="menu__link">Team</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div data-da=".menu__body,767.98,2" class="header__registr registr">
+						<div class="registr__reg reg">
+							<ul class="reg__list">
+								<li class="reg__item"><a data-popup="#popup" class="reg__link" href="">Log in</a></li>
+								<li class="reg__item">/</li>
+								<li class="reg__item">
+									<a class="reg__link" href="registration.html">Registration</a>
+								</li>
+							</ul>
+						</div>
+						<div class="registr__book">
+							<a data-goto="#reserv" href="">Book Table</a>
+						</div>
+					</div>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="page__what-offer what-offer top">
+				<picture><source srcset="img/fon-page-ser-ab-cont-team.webp" type="image/webp"><img src="img/fon-page-ser-ab-cont-team.jpg" alt="" /></picture>
+				<div class="what-offer__title">
+					<h2>what we offer</h2>
+					<div class="what-offer__sub-title">
+						<a href="index.html">home ></a>
+						<span>Registration</span>
+					</div>
+				</div>
+			</section>
+			<section class="page__registrat registrat">
+				<div class="registrat__container">
+					<div class="registrat__wrap">
+						<form class="registrat__form-reg form-reg" action="files/sendmail/sendmail.php" method="POST">
+							<input type="text" name="name-reg" data-error="Error" placeholder="Your Name" class="form-reg__input input" />
+							<input type="text" name="mail" data-error="Error" placeholder="Your E-mail" class="form-reg__input input" />
+							<input type="text" name="password" data-error="Error" placeholder="Your Password" class="form-reg__input input" />
+							<input type="text" name="password-2" data-error="Error" placeholder="Your password too" class="form-reg__input input" />
+							<button type="submit" class="form-reg__btn btn"><span>Send</span></button>
+						</form>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__interlayer">
+				<div class="interlayer__container _icon-logo-page"></div>
+			</div>
+			<div class="footer__container">
+				<div class="footer__newsletter newsletter">
+					<div class="newsletter__title">
+						<p>newsletter</p>
+						<span class="_icon-spoon"></span>
+						<h3>subscribe to our newsletter</h3>
+					</div>
+					<form class="newsletter__form" action="files/sendmail/sendmail.php" method="POST">
+						<input type="text" name="email" data-error="Error" placeholder="Email Address" class="newsletter__input input" />
+						<button type="submit" class="newsletter__subs btn"><span>subscribe</span></button>
+					</form>
+				</div>
+				<div data-goto=".top" class="footer__top"><span></span><span>top</span></div>
+				<div class="footer__contacts-foot contacts-foot">
+					<div data-da=".contacts-foot,767.98,3" class="contacts-foot__contact contact">
+						<h5>contact us</h5>
+						<a href="#" class="contact__address">9 W 53rd St, New York, NY 10019, USA</a>
+						<a href="tel:+12123441230" class="contact__tel">+1 212-344-1230</a>
+						<a href="tel:+12125551230" class="contact__tel">+1 212-555-1230</a>
+					</div>
+					<div class="contacts-foot__network-logo network-logo">
+						<div class="network-logo__text">
+							<h3>gericht</h3>
+							<p>"The best way to find yourself is to lose yourself in the service of others.”</p>
+							<span class="_icon-spoon"></span>
+						</div>
+						<div class="network-logo__link-social">
+							<a href="#" class="_icon-fb"></a>
+							<a href="#" class="_icon-twit"></a>
+							<a href="#" class="_icon-insta"></a>
+						</div>
+					</div>
+					<div class="contacts-foot__work-days work-days">
+						<h5>Working hours</h5>
+						<div class="work-days__day">
+							<span>Monday-Friday:</span>
+							<span>08:00 am - 10:00 pm</span>
+						</div>
+						<div class="work-days__day">
+							<span>Saturday-Sunday:</span>
+							<span>07:00 am - 11:00 pm</span>
+						</div>
+					</div>
+				</div>
+				<div class="footer__copyright">2021 Gerícht. All Rights reserved.</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20240328165608"></script>
+</body>
+
+</html>
